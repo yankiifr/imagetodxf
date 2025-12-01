@@ -1,0 +1,42 @@
+{
+    "potrace": {
+        "auto_detect": true,
+        "custom_path": null
+    },
+    "oda": {
+        "paths": [
+            "C:\\Program Files\\ODA\\ODAFileConverter\\ODAFileConverter.exe",
+            "C:\\Program Files (x86)\\ODA\\ODAFileConverter\\ODAFileConverter.exe"
+        ]
+    },
+    "presets": {
+        "scan": {
+            "description": "Optimisé pour les scans de plans papier",
+            "clean": true,
+            "hq": true,
+            "ai": false,
+            "min_area": 100,
+            "max_thickness": 8,
+            "min_len": 15
+        },
+        "photo": {
+            "description": "Optimisé pour les photos de plans (avec ombres)",
+            "clean": true,
+            "hq": true,
+            "ai": true,
+            "min_area": 50,
+            "max_thickness": 5,
+            "min_len": 10
+        },
+        "drawing": {
+            "description": "Optimisé pour les dessins numériques propres",
+            "clean": false,
+            "hq": false,
+            "ai": false,
+            "min_area": 20,
+            "max_thickness": 0,
+            "min_len": 0
+        }
+    },
+    "default_preset": "scan"
+}

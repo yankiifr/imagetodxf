@@ -1,0 +1,19 @@
+# Core dependencies
+Pillow>=10.0.0
+ezdxf>=1.0.0
+svgelements>=1.9.0
+
+# Image processing
+opencv-python>=4.8.0
+numpy>=1.24.0
+
+# AI features (optional)
+rembg>=2.0.0
+
+# Gemini API (optional)
+google-generativeai>=0.3.0
+python-dotenv>=1.0.0
+
+# GUI (optional)
+# Uncomment if using GUI mode
+tkinterdnd2>=2.9.0
