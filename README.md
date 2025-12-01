@@ -104,6 +104,14 @@ Le fichier `config.json` permet de personnaliser les profils :
 
 **Note** : Les résultats Gemini sont expérimentaux et souvent imprécis pour la CAO.
 
+## 🗺️ Roadmap
+
+Consultez notre [ROADMAP.md](ROADMAP.md) pour voir les fonctionnalités futures :
+- 🚀 v11 : Multi-threading, API REST, Docker
+- 🎨 v12 : Détection intelligente, OCR, formats additionnels
+- 🧪 v13 : IA avancée (ControlNet, Super-Resolution)
+- 🌐 v14 : Plugins AutoCAD/QGIS, Marketplace
+
 ## 📂 Structure du Projet
 
 ```
