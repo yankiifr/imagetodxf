@@ -8,12 +8,12 @@
 ## 🎯 Fonctionnalités
 
 - ✅ **Conversion automatique** : JPG/PNG → DXF/DWG
-- 🧠 **IA de nettoyage** : Suppression intelligente du fond (R embg)
+- 🧠 **IA de nettoyage** : Suppression intelligente du fond (Rembg)
 - 🔍 **Mode Haute Qualité** : Upscaling x2 + seuillage adaptatif
 - 🗑️ **Filtrage avancé** : Suppression du texte, cotes, et bruit
 - 📦 **Mode Batch** : Traiter plusieurs fichiers d'un coup
 - 🎨 **Profils prédéfinis** : Scan, Photo, Dessin
-- 🤖 **Expérimental** : Génération via Gemini API
+- 🖥️ **Interface Graphique** : GUI Tkinter avec drag & drop
 
 ## 📋 Prérequis
 
@@ -38,8 +38,11 @@ python convert_plan.py plan.jpg --clean --hq
 python convert_plan.py scan.jpg --clean --hq --ai
 ```
 
+| Option | Description |
+|--------|-------------|
+| `--clean` | Active les filtres de nettoyage (OpenCV + SVG) |
+| `--hq` | Mode Haute Qualité (Upscaling x2, seuillage adaptatif) |
 | `--ai` | Nettoyage par IA (Rembg). Supprime intelligemment le fond |
-| `--gemini` | Génération par Gemini API (Expérimental) |
 | `--batch` | Mode traitement multiple |
 | `--preset <name>` | Utilise un profil prédéfini (scan, photo, drawing) |
 | `--min-area N` | Supprime les objets < N px² (défaut: 20) |
